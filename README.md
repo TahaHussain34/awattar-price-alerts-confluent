@@ -16,6 +16,6 @@ negative-price windows (get paid to consume) before they happen, not after.
 
 ## Confluent features used
 - HTTP Source & HTTP Sink connectors
-- Flink SQL materialized tables (continuous, no manual INSERT INTO)
+- Flink SQL materialized tables
 - ML_FORECAST for time-series forecasting
 - Stream Governance (Stream Lineage, Schema Registry)
