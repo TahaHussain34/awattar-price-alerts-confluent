@@ -12,7 +12,7 @@ HTTP Source (aWATTar) → awattar_prices_raw → [dedupe] → awattar_prices
 ## Business impact
 Lets industrial consumers, EV charging operators, and battery storage
 operators shift load away from predicted price spikes, and capture
-negative-price windows (get paid to consume) — before they happen, not after.
+negative-price windows (get paid to consume) before they happen, not after.
 
 ## Confluent features used
 - HTTP Source & HTTP Sink connectors
