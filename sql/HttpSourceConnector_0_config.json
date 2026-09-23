@@ -1,0 +1,20 @@
+{
+  "config": {
+    "cloud.environment": "prod",
+    "cloud.provider": "aws",
+    "connector.class": "HttpSource",
+    "http.initial.offset": "0",
+    "http.response.data.json.pointer": "/data",
+    "kafka.api.key": "****************",
+    "kafka.api.secret": "****************",
+    "kafka.auth.mode": "KAFKA_API_KEY",
+    "kafka.endpoint": "SASL_SSL://pkc-921jm.us-east-2.aws.confluent.cloud:9092",
+    "kafka.region": "us-east-2",
+    "name": "HttpSourceConnector_0",
+    "output.data.format": "AVRO",
+    "request.interval.ms": "900000",
+    "tasks.max": "1",
+    "topic.name.pattern": "awattar_prices_raw",
+    "url": "https://api.awattar.de/v1/marketdata"
+  }
+}
